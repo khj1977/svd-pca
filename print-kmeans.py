@@ -11,9 +11,15 @@ import sys
 import pickle
 import re
 
-numEig = 120
+if (len(sys.argv) != 2):
+    print("usage: python print-kmeans.py num-eig")
+    sys.exit()
+
+# numEig = 120
 # maxWordID = 33852
 # maxDocID = 304887
+
+numEig = int(sys.argv[1])
 
 uMat = pickle.load(open("uMat.p", "rb"))
 uMatT = pickle.load(open("uMatT.p", "rb"))

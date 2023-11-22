@@ -11,8 +11,15 @@ import sys
 import pickle
 import numpy
 
-numEig = 120
-minDF = 10
+if (len(sys.argv) != 4):
+    print("usage: python do-svd.py num-eig-values min-df path-of-doc.tsv")
+    sys.exit()
+
+# numEig = 120
+# minDF = 10
+
+numEig = sys.argv[2]
+minDF = sys.argv[3]
 
 path = sys.argv[1]
 

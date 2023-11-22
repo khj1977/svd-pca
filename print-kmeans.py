@@ -4,7 +4,7 @@
 from scipy import sparse
 from scipy import linalg
 from scipy import matrix
-from scipy.sparse.linalg.eigen.arpack import *
+# from scipy.sparse.linalg.eigen.arpack import *
 
 import math
 import sys
@@ -45,4 +45,4 @@ for coID in range(maxWordID):
 
         outString = outString + "\t" + element
         
-    print outString
+    print(outString)

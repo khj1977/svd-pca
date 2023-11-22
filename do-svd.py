@@ -57,8 +57,8 @@ for line in stream:
 maxWordID = wordID
 maxDocID = docID
             
-print maxWordID
-print maxDocID
+print(maxWordID)
+print(maxDocID)
 
 stream.close
 
@@ -105,14 +105,14 @@ for line in stream:
     i = i + 1
     wordID = wordID + 1
 
-print "matrix construction end"
+print("matrix construction end")
 
 eval, evec = eigsh(bMat, numEig)
 
-print "eig is calced"
+print("eig is calced")
 
-print type(eval)
-print type(evec)
+print(type(eval))
+print(type(evec))
 
 # uMat = sparse.lil_matrix((maxWordID, numEig))
 # uMatT = sparse.lil_matrix((numEig, maxWordID))
@@ -146,7 +146,7 @@ for i in range(numEig):
         else:
             sigMat[i, j] = 0.0
 
-print "sig mat is made"
+print("sig mat is made")
 
 pickle.dump(uMat, open("uMat.p", "w"))
 pickle.dump(uMatT, open("uMatT.p", "w"))

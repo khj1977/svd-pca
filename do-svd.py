@@ -4,7 +4,7 @@
 from scipy import sparse
 from scipy import linalg
 from scipy import matrix
-from scipy.sparse.linalg.eigen.arpack import *
+# from scipy.sparse.linalg.eigen.arpack import *
 
 import math
 import sys
@@ -18,10 +18,10 @@ if (len(sys.argv) != 4):
 # numEig = 120
 # minDF = 10
 
-numEig = sys.argv[2]
-minDF = sys.argv[3]
+numEig = int(sys.argv[1])
+minDF = int(sys.argv[2])
 
-path = sys.argv[1]
+path = sys.argv[3]
 
 wordToWordID = dict()
 wordIDToWord = list()
@@ -52,7 +52,8 @@ for line in stream:
         
         tweetID = element
         
-        if tweetIDToDocID.has_key(tweetID) == False:
+        # if tweetIDToDocID.has_key(tweetID) == False:
+        if (tweetID in tweetIDToDocID) == False:
             tweetIDToDocID[tweetID] = docID
             docID = docID + 1
             
@@ -114,7 +115,7 @@ for line in stream:
 
 print("matrix construction end")
 
-eval, evec = eigsh(bMat, numEig)
+eval, evec = sparse.linalg.eigsh(bMat, numEig)
 
 print("eig is calced")
 

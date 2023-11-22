@@ -156,11 +156,11 @@ for i in range(numEig):
 
 print("sig mat is made")
 
-pickle.dump(uMat, open("uMat.p", "w"))
-pickle.dump(uMatT, open("uMatT.p", "w"))
-# pickle.dump(vMat, open("vMat.p", "w"))
+pickle.dump(uMat, open("uMat.p", "wb"))
+pickle.dump(uMatT, open("uMatT.p", "wb"))
+# pickle.dump(vMat, open("vMat.p", "wb"))
 # pickle.dump(vMatT, open("vMatT.p", "w"))
-pickle.dump(sigMat, open("sigMat.p", "w"))
-pickle.dump(wordIDToWord, open("wordIDToWord.p", "w"))
-pickle.dump(wordToWordID, open("wordToWordID.p", "w"))
+pickle.dump(sigMat, open("sigMat.p", "wb"))
+pickle.dump(wordIDToWord, open("wordIDToWord.p", "wb"))
+pickle.dump(wordToWordID, open("wordToWordID.p", "wb"))
 

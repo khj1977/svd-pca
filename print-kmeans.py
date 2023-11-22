@@ -15,11 +15,11 @@ numEig = 120
 # maxWordID = 33852
 # maxDocID = 304887
 
-uMat = pickle.load(open("uMat.p"))
-uMatT = pickle.load(open("uMatT.p"))
-sigMat = pickle.load(open("sigMat.p"))
-wordIDToWord = pickle.load(open("wordIDToWord.p"))
-wordToWordID = pickle.load(open("wordToWordID.p"))
+uMat = pickle.load(open("uMat.p", "rb"))
+uMatT = pickle.load(open("uMatT.p", "rb"))
+sigMat = pickle.load(open("sigMat.p", "rb"))
+wordIDToWord = pickle.load(open("wordIDToWord.p", "rb"))
+wordToWordID = pickle.load(open("wordToWordID.p", "rb"))
 
 maxWordID = len(wordIDToWord)
 

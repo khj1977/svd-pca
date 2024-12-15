@@ -1,5 +1,5 @@
-Copyright (c) 2016, NMD Soft, Hwi Jun KIM, euler.bonjour@gmail.com
-a.k.a pcaffeine. All rights reserved.
+Copyright (c) 2017, NMD Soft, Hwi Jun KIM, euler.bonjour@gmail.com
+a.k.a pcaffeine77. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met: 
@@ -12,14 +12,30 @@ modification, are permitted provided that the following conditions are met:
 3. Even if server side program, these statements are applied;i.e. if this code 
    is used for server side web application, this copyright notice and realted 
    statments should be generated.
-4. If top-line of a user of this code, regardless of who is an individual 
+4. If top-line of a user of this framework, regardless of who is an individual 
    or some kind of organization, is higher than 10,000,000 yen / year, a user 
-   should pay for this code as license fee. License fee is yearly 
+   should pay for this framework as license fee. License fee is yearly 
    subscription bases. Fee will be negotiated with license owner but it would
    be around 300,000 to 10,000,000 yen / year for small to middle size company.
    If a user is a big size company, a fee should be higher than 10,000,000 
    yen / year and the rest is negotiation bases based on their top-line and 
    operation profit.
+5. If a company, person or group donate money to NMD Soft for this software, 
+   fee defined above for this software will be exempted. For example, amount of 
+   donation could be 10,000JPY/year to 10,000,000 JPY/year. Or no donation is required 
+   if one's topline is less than 10mil JPY / year. Donation will be used to cost of 
+   developmement. We live in home, we use watar/gas/elec, we eat something,
+   we do some hobby. Money is important to spend life and continuous R&D is far
+   more important. If my income is stable, development of this software is also
+   stable. Not so huge money is requred. 5mil to 10mil would be enough choice for
+   base and expense. Now, a user company can use this software completly free
+   of charge expect donation. This software is a public base. Although this is
+   BSD license bases, as GNU manifest said, it is assumed to do competition over
+   the same software base. Let's make a public base by everyone who has intrests.
+   Base is made by everyone but moderate monetize or donation are required.
+   See https://www.khj1977.net/profile/misc/web-and-econ.html 
+   for this argument in Japanese. This is a experiment of old good communism wth modern 
+   IT industry.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
 ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
